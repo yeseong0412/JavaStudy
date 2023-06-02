@@ -26,3 +26,15 @@
 //        this.gender = gender;
 //    }
 //}
+public class Example{
+    public static void main(String[] args) {
+        int i=0;
+        while (true) { //while(1) 하면 오류남 == 왠진 모름; 낼 찾아봐야지 (너무 늦어서 잘꺼임 2:23;;ㅋㅋ)
+            i+=1;
+            System.out.println("자바+스프링은 어렵다, 노드는 쓸만하지만 잘 모르겠다. 코틀린 배우고 싶다.");
+            if(i==10){
+                break;
+            }
+        }
+    }
+}
