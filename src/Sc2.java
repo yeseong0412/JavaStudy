@@ -7,3 +7,4 @@ public class Sc2 {
         System.out.println(n);
     }
 }
+
