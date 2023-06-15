@@ -6,6 +6,7 @@ com.example.fw.Controller 의 종유가 여러게더라.
 실행 - 다른코드?
 마무리 - 같은코드
  */
+//@Controller
 public abstract class Controller {
     protected final void init(){
         System.out.println("초기화 하는 코드");
