@@ -7,7 +7,7 @@ public class Member {
     private int point;
 
     public Member() {
-
+        return;
     }
 
     public String getId() {
