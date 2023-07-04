@@ -5,8 +5,6 @@ class Ex{
         Data d = new Data();
         d.x = 10;
         System.out.println("main() : x = " + d.x);
-
-        change(d.x);
         System.out.println("After change(d.x)");
         System.out.println("main() : x = " + d.x);
     }
