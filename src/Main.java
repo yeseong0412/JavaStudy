@@ -2,8 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
-        System.out.println(a+a);
+        Scanner sc = new Scanner(System.in);
+        String a[] = sc.next().split("-");
+        System.out.println(a[0]+a[1]);
     }
 }
