@@ -5,6 +5,6 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         int i = Integer.valueOf(sc.next(), 8);
-        System.out.print(i);
+        System.out.print(i+1);
     }
 }
