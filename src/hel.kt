@@ -7,4 +7,5 @@ fun main(args:Array<String>){
         println("name " + name)
         println("age " + age)
         println("job "+job)
+        println(booleanArrayOf())
 }
