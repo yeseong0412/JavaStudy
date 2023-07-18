@@ -59,6 +59,7 @@ public class Member {
 
 
     // 파일에 값 저장
+
     public void txtOut() throws IOException {
 
         BufferedWriter writer = new BufferedWriter(new FileWriter("number.txt"));
