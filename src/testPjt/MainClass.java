@@ -2,22 +2,13 @@ package testPjt;
 
 public class MainClass {
     public static void main(String[] args){
-        Grandeur myCar1 = new Grandeur();
-        myCar1.color = "red";
-        myCar1.gear = "auto";
-        myCar1.price = 100;
+        Bicycle myBicycle = new Bicycle("red", 1000);
+//        myBicycle.color = "red";
+//        myBicycle.price = 10000;
 
-        myCar1.run();
-        myCar1.stop();
-        myCar1.info();
+        myBicycle.info();
+        myBicycle.color = "yellow";
 
-        Grandeur myCar2 = new Grandeur();
-        myCar2.color = "blue";
-        myCar2.gear = "auto";
-        myCar2.price = 100000;
-
-        myCar2.run();
-        myCar2.stop();
-        myCar2.info();
+        myBicycle.info();
     }
 }
