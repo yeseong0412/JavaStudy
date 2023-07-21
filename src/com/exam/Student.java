@@ -24,5 +24,8 @@ public class Student {
         if(score > 50) {
             this.score = score;
         }
+        else{
+            System.out.println("ERROR");
+        }
     }
 }
