@@ -4,11 +4,7 @@ public class ParentClass {
     public ParentClass(){
         System.out.println("ParentClass constructor");
     }
-    public void parentFun(){
-        System.out.println("parentFun()");
+    public void makeJJ(){
+        System.out.println("--makejj--");
     }
-    private void privateFun(){
-        System.out.println("privateFun()");
-    }
-
 }

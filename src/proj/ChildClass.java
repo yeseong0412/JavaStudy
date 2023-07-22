@@ -5,7 +5,7 @@ public class ChildClass {
     public String gender;
     public int age;
     public ChildClass(){
-        System.out.println("ChildClass constructor");
+        System.out.println("FirstChildClass constructor");
     }
     public void setInfo(String n, String g, int a){
         System.out.println("-- setInfo() START --");
