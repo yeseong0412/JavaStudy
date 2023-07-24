@@ -2,9 +2,18 @@ package com.exam;
 
 public class MainClass {
     public static void main(String[] args) {
-        Student stu = new Student("양예성", 40);
-        stu.getInfo();
-        stu.setScore(30);
-        stu.getInfo();
+        //String str = "JAVA";
+        String str = new String("JAVA");
+        System.out.println("str : " + str);
+        str = str + "_8";
+        System.out.println("str : " + str);
+
+        //StringBuffer
+        StringBuffer sf = new StringBuffer("JAVA");
+        System.out.println("sf : " + sf);
+        sf.append("world");
+        System.out.println("sf : " + sf);
+        System.out.println("sf.length : " + sf.length());
+
     }
 }
