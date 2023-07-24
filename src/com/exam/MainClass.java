@@ -14,6 +14,10 @@ public class MainClass {
         sf.append("world");
         System.out.println("sf : " + sf);
         System.out.println("sf.length : " + sf.length());
-
+        //StringBuilder
+        StringBuilder sb = new StringBuilder("JAVA WORLD!!");
+        System.out.println("sb : " + sb);
+        sb.append("~~~~");
+        System.out.println("sb : " + sb);
     }
 }
