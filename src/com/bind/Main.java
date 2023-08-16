@@ -1,11 +1,10 @@
 package com.bind;
 
-import java.io.FileNotFoundException;
-import java.util.ArrayList;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(System.in);
         Member member = new Member();
         while (true) {
@@ -23,6 +22,7 @@ public class Main {
                 String name = sc.next();
                 System.out.print("전화번호 입력 : ");
                 int phoneNumber = sc.nextInt();
+
                 member.save(name,phoneNumber);
             }
             // 저장된 값 보여주기
@@ -33,7 +33,7 @@ public class Main {
             else if (n == 3){
                 System.out.print("이름 입력 : ");
                 String nameSearch = sc.next();
-                //member.search(nameSearch);
+                member.search(nameSearch);
             }
             // 프로그램 종료
             else if (n == 4) {
@@ -44,12 +44,8 @@ public class Main {
             else if (n == 5) {
                 System.out.println("전화번호 목록을 내보냅니다...");
                 member.txtOut();
-                try {
-                    member.txtOut();
-                } catch (FileNotFoundException e) {
-                    System.out.println("파일을 찾을 수 없습니다.");
-                }
             }
+
 
         }
     }
