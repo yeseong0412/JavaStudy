@@ -1,5 +1,5 @@
 //public class Example {
-//    public static void main(String[] args) {
+//    public static void Main(String[] args) {
 //        Person kgw = new Person("김건우", 18, "남");
 //        Person bsn = new Person("배성은", 17, "여");
 //        Person cmh = new Person("신민호", 17, "중성");
