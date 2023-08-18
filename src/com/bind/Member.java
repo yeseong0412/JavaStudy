@@ -2,7 +2,9 @@ package com.bind;
 
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class Member {
@@ -31,9 +33,10 @@ public class Member {
     // 데이터 갯수와 저장된 값 보여주기
     public void showList(){
         System.out.println("현재 등록된 데이터 개수 : " + map.size());
-        for( String key : map.keySet() ){
-            Integer value = map.get(key);
-            System.out.println(String.format("[ " + key + " - " + value + " ]"));
+        List<String> keyList = new ArrayList<>(map.keySet());
+        keyList.sort(String::compareTo);
+        for (String key : keyList) {
+            System.out.println("[ " + key + " - " +  map.get(key) + " ]" );
         }
     }
 
