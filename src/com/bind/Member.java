@@ -28,8 +28,6 @@ public class Member {
         }
         return false;
     }
-
-
     // 데이터 갯수와 저장된 값 보여주기
     public void showList(){
         System.out.println("현재 등록된 데이터 개수 : " + map.size());
